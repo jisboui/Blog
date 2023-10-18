@@ -8,7 +8,7 @@ const app = express();
 const Blog = require('./models/blog'); 
 
 // connect to mongodb & listen for requests
-const dbURI = "mongodb+srv://jihad:942001@cluster0.z8rlwfm.mongodb.net/nody?retryWrites=true&w=majority";
+const dbURI = "mongodb+srv://<insert your username>:<insert your password>@cluster0.z8rlwfm.mongodb.net/<insert the database name>?retryWrites=true&w=majority";
 
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(result => app.listen(3000))
