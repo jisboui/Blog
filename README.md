@@ -2,7 +2,7 @@
 A blog built with Node, Express and MongoDB and following the Model–view–controller (MVC) software design pattern.
 ## Prerequisites
 - Node.js and npm are to be installed.
-- two options here : either to install MongoDB on your computer locally or use the cloud DB which is already hosted for us and i prefer the latter.
+- two options here : either to install MongoDB on your computer locally or use the cloud DB which is already hosted for us and i recommend the latter.
 
 ## Setup
 
